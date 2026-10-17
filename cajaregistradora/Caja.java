@@ -1,10 +1,22 @@
 package cajaregistradora;
 
 public class Caja {
-	double total;
-	double cantidad;
 	
-	public static void Caja {
+	
+private double total = 0;
+    
+
+    public synchronized void cobrar(double cantidad) {
+        
+        total = total + cantidad;
+        
+    }
+    
+    public double getTotal() {
+        
+        return total;
+        
+    }
 		
 	}
 }
