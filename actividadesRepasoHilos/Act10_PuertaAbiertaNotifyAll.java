@@ -4,7 +4,7 @@ public class Act10_PuertaAbiertaNotifyAll implements Runnable{
  
 	private Act10_PuertaNotifyAll puerta;
 
-	private Act10_PuertaAbiertaNotifyAll (Act10_PuertaNotifyAll puerta) {
+	public Act10_PuertaAbiertaNotifyAll (Act10_PuertaNotifyAll puerta) {
 		
 		this.puerta = puerta;
 	}
